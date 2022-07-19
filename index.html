@@ -4,57 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <title>Odin Full Design Test</title>
 </head>
 <body>
-    <div>
-        <h4>Header Logo</h4>
-        <div>
-            <a href="">header link one</a>
-            <a href="">header link one</a>
-            <a href="">header link one</a>
-        </div>
-        <div>
+    <div class="container">
+        <nav class="bx navbar">
+            <div class="header-logo">
+                <img src="header logo">
+            </div>
+            <div class="header-link">
+                <a href="" class="nav-link-text">header link one</a>
+                <a href="" class="nav-link-text">header link one</a>
+                <a href="" class="nav-link-text">header link one</a>
+            </div>
+        </nav>
+    </div> 
+    <div class="bx hero">
+        <div class="hero-1 hero-cta">          
             <h2>This website is awesome</h2>
             <p>This website has some subtext that goes here under the main title.  It's a smaller font and the color is lower contrast.</p>
-            <button>Sign Up</button>
-            <img src="" alt="Placeholder image">
+            <button type="button">Sign Up</button>
+        </div>
+        <div class="hero-1 hero-image">
+            <img src="">
         </div>
     </div>
-    <div>
+
+    <div class="bx content">
         <h3>Some random information.</h3>
-        <div>
+        <div class="content-info">
             <div>
                 <img src="">
-                <p>this is some subtext under an illustraion or image</p>
+                <p>this is some subtext under an image</p>
             </div>
             <div>
                 <img src="">
-                <p>this is some subtext under an illustraion or image</p>
+                <p>this is some subtext under an image</p>
             </div>
             <div>
                 <img src="">
-                <p>this is some subtext under an illustraion or image</p>
+                <p>this is some subtext under an image</p>
             </div>
             <div>
                 <img src="">
-                <p>this is some subtext under an illustraion or image</p>
+                <p>this is some subtext under an image</p>
             </div>
         </div>
     </div>
-    <div>
-        <p>This is an inspiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</p>
-        <p>Thor, God of Thunder</p>
+    <div class="bx quote">
+        <p>"This is an inspiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice."</p>
+        <b>Thor, God of Thunder</b>
     </div>
-    <div>
-        <div>
-            <h5>Call to action! It's time!</h5>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button></button>
+    <div class="bx sign-up">
+        <div class="sign-item signs-text">
+            <h3>Call to action! It's time!</h3>
+            <p>Sign up for our product by clicking that button right over there!</p>   
+        </div>
+        <div class="sign-item signs-button">
+            <button type="button">Sign Up</button>
         </div>
     </div>
-    <div>
+    <footer class="bx footer">
         <p>Copyright @ The Odin Projecct 2022</p>
-    </div>
+    </footer>
 </body>
 </html>
